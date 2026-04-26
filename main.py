@@ -1,7 +1,7 @@
 from google.cloud import storage
 
 def process_file(event, context):
-    """Triggered when a file is uploaded to Cloud Storage. xdd"""
+    """Triggered when a file is uploaded to Cloud Storage. xd"""
     file_name = event['name']
     bucket_name = event['bucket']
     
